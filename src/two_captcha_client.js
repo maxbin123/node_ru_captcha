@@ -6,7 +6,7 @@ const Captcha = require('./captcha');
 const constants = require('./constants');
 const HTTPRequest = require('./http_request');
 
-const baseUrl = 'https://2captcha.com/<action>.php';
+const baseUrl = 'https://rucaptcha.com/<action>.php';
 const readFileAsync = promisify(fs.readFile);
 
 class TwoCaptchaClient {
